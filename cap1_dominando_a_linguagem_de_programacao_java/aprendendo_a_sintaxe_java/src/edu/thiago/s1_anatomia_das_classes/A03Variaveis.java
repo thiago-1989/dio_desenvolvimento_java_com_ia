@@ -1,4 +1,5 @@
 package edu.thiago.s1_anatomia_das_classes;
+
 public class A03Variaveis {
     public static void main(String[] args) {
         /* Variáveis */
@@ -13,12 +14,12 @@ public class A03Variaveis {
         System.out.println(diaSemana);
 
         /* Constantes */
-        final String BR = "Brasil";
-        System.out.println(BR);
+        final String PAIS = "Brasil";
+        System.out.println(PAIS);
         /*
         BR = "Japão"
-        System.out.println(BR);
-        System.out.print("Olá, " + BR + "! Sejam todos bem-vindos");
+        System.out.println(PAIS);
+        System.out.print("Olá, " + PAIS + "! Sejam todos bem-vindos");
         */
 
         boolean casado = true; // recebe valores booleanos "true" ou "false" apenas
