@@ -1,4 +1,5 @@
 package edu.thiago.s1_anatomia_das_classes;
+
 public class A04BoletimEstundantil {
     public static void main(String[] args) {
     // SEM INDENTAÇÃO
