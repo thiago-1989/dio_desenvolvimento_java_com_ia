@@ -1,7 +1,5 @@
 package edu.thiago.s3_operadores;
 
-import javax.swing.Icon;
-
 public class OperadoresRelacionais {
     public static void main(String[] args) {
         int numero1 = 1;
@@ -22,7 +20,6 @@ public class OperadoresRelacionais {
         String nome1 = "Thiago";
         String nome2 = new String("Thiago");
         System.out.println(nome1 == nome2);
-        
     }
 
 }
