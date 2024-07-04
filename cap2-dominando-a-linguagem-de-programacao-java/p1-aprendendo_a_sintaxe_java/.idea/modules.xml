@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/aprendendo_a_sintaxe_java.iml" filepath="$PROJECT_DIR$/.idea/aprendendo_a_sintaxe_java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/s1-anatomia-das-classes/s1-anatomia-das-classes.iml" filepath="$PROJECT_DIR$/s1-anatomia-das-classes/s1-anatomia-das-classes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/s2-tipos-e-variaveis/s2-tipos-e-variaveis.iml" filepath="$PROJECT_DIR$/s2-tipos-e-variaveis/s2-tipos-e-variaveis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/s3-operadores/s3-operadores.iml" filepath="$PROJECT_DIR$/s3-operadores/s3-operadores.iml" />
+      <module fileurl="file://$PROJECT_DIR$/s4-metodos/s4-metodos.iml" filepath="$PROJECT_DIR$/s4-metodos/s4-metodos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/s4-sistema-smart-tv/s4-sistema-smart-tv.iml" filepath="$PROJECT_DIR$/s4-sistema-smart-tv/s4-sistema-smart-tv.iml" />
+      <module fileurl="file://$PROJECT_DIR$/s5-escopo/s5-escopo.iml" filepath="$PROJECT_DIR$/s5-escopo/s5-escopo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/s6-palavras-reservadas/s6-palavras-reservadas.iml" filepath="$PROJECT_DIR$/s6-palavras-reservadas/s6-palavras-reservadas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/s7-java-doc/s7-java-doc.iml" filepath="$PROJECT_DIR$/s7-java-doc/s7-java-doc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/s8_terminal_e_argumentos/s8_terminal_e_argumentos.iml" filepath="$PROJECT_DIR$/s8_terminal_e_argumentos/s8_terminal_e_argumentos.iml" />
+    </modules>
+  </component>
+</project>
