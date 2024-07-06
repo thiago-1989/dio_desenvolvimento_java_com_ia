@@ -1,0 +1,49 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "A01MinhaClasse1",
+            "request": "launch",
+            "mainClass": "edu.thiago.A01MinhaClasse1",
+            "projectName": "aprendendo_a_sintaxe_java_ab8e939c"
+        },
+        {
+            "type": "java",
+            "name": "A02MinhaClasse2",
+            "request": "launch",
+            "mainClass": "edu.thiago.A02MinhaClasse2",
+            "projectName": "aprendendo_a_sintaxe_java_ab8e939c"
+        },
+        {
+            "type": "java",
+            "name": "A03Metodos",
+            "request": "launch",
+            "mainClass": "edu.thiago.A03Metodos",
+            "projectName": "aprendendo_a_sintaxe_java_ab8e939c"
+        },
+        {
+            "type": "java",
+            "name": "A03Variaveis",
+            "request": "launch",
+            "mainClass": "edu.thiago.A03Variaveis",
+            "projectName": "aprendendo_a_sintaxe_java_ab8e939c"
+        },
+        {
+            "type": "java",
+            "name": "A04BoletimEstundantil",
+            "request": "launch",
+            "mainClass": "edu.thiago.A04BoletimEstundantil",
+            "projectName": "aprendendo_a_sintaxe_java_ab8e939c"
+        }
+    ]
+}
