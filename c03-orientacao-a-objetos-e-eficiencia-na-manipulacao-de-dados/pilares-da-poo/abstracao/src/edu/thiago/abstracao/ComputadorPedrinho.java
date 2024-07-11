@@ -1,4 +1,4 @@
-package edu.thiago.heranca;
+package edu.thiago.abstracao;
 
 /*
  * Simulação do uso da classe MSNMessenger
@@ -16,7 +16,7 @@ public class ComputadorPedrinho {
 		fcb.enviarMensagem();
 		fcb.receberMensagem();
 
-		Telegram tlg = new Telegram();
+		ServicoMensagemInstantanea tlg = new Telegram();
 		System.out.println("\nTelegram");
 		tlg.enviarMensagem();
 		tlg.receberMensagem();
