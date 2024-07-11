@@ -7,7 +7,7 @@ Para uma melhor ilustração, iremos representar os conceitos de visibilidade de
 ## Modificador public
 Como o próprio nome representa, quando nossa classe, método e atributo é definido como **public**, qualquer outra classe em qualquer outro pacote, poderá visualizar tais recursos.
 
-![Imagem de exemplo POO](<../assets/image1.png>)
+![Imagem de exemplo POO](<../../assets/image1.png>)
 
 ### Cozinheiro
 
@@ -204,7 +204,7 @@ Dentro do pacote
 
 * **lanchonete.area.cliente**: Pacote que contém classes, relacionadas ao espaço do cliente.
 
-![Imagem de exemplo POO](<../assets/image2.png>)
+![Imagem de exemplo POO](<../../assets/image2.png>)
 
 
 Para definir um método visível a nível de pacote, basta NÃO declarar nenhum modificador, exemplo:

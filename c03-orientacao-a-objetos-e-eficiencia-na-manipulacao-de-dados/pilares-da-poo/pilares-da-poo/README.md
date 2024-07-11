@@ -28,13 +28,13 @@ Para ilustrar a proposta dos Princípios de POO, no nosso cotidiano, vamos simul
 
 **MSN Messenger** foi um programa de mensagens instantâneas criado pela Microsoft Corporation. O serviço nasceu a 22 de julho de 1999, anunciando-se como um serviço que, permitia falar com uma pessoa através de conversas instantâneas pela internet. Ao longo dos anos, surgiram novos serviços de mensagens pela internet, como **Facebook Messenger** e o **VKontakte Telegram**.
 
-![image](<../assets/poo1.png>)
+![image](<../../assets/poo1.png>)
 
 Vamos descrever em UML e depois em código, algumas das principais funcionalidades de qualquer serviço de comunicação instantânea pela internet, inicialmente pelo MSN Messenger e depois inserindo os demais, considerando os princípios de POO.
 
 UML
 
-![image](<../assets/poo2.png>)
+![image](<../../assets/poo2.png>)
 
 Code
 ```Java
