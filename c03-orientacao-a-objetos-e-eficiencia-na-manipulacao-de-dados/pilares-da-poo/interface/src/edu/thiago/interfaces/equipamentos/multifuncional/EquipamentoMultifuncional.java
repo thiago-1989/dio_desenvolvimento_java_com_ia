@@ -1,7 +1,7 @@
 package edu.thiago.interfaces.equipamentos.multifuncional;
 
-import edu.thiago.interfaces.equipamentos.copiadora.Copiadora;
 import edu.thiago.interfaces.equipamentos.digitalizadora.Digitalizadora;
+import edu.thiago.interfaces.equipamentos.copiadora.Copiadora;
 import edu.thiago.interfaces.equipamentos.impressora.Impressora;
 
 public class EquipamentoMultifuncional implements Copiadora, Digitalizadora, Impressora{
