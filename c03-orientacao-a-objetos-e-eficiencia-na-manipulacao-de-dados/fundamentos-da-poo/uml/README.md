@@ -2,13 +2,13 @@
 
 Linguagem de Modelagem Unificada ou UML, é uma notação, que possibilita a representação gráfica do projeto.
 
-![imagem](<../assets/uml1.png>)
+![imagem](<../../assets/uml1.png>)
 
 Na UML, temos três conceitos necessários para compreendermos inicialmente:
 
 ### Diagramas, elementos e relacionamentos.
 
-![imagem](../assets/uml2.png)
+![imagem](../../assets/uml2.png)
 
 As notações UML, são distribuídas em duas categorias de diagramas, a estrutural e comportamental conforme listagem abaixo:
 
@@ -37,16 +37,16 @@ Em um diagrama, as classes podem existir de forma independente, mas obviamente h
 **Associação**
 Uma associação, define um relacionamento entre duas classes, permitindo que, um objeto tenha acesso a estrutura de um outro objeto.
 
-![imagem](../assets/uml3.png)
+![imagem](../../assets/uml3.png)
 
 **Agregação**: Em uma agregação, a classe principal contém uma relação com outra classe, mas ela pode existir, sem a classe agregadora. Imagina um cadastro de Candidatos, podemos encontrar candidatos que ainda não possuam uma profissão:
 
-![imagem](../assets/uml4.png)
+![imagem](../../assets/uml4.png)
 Candidato é classe principal e a Profissão, agregação.
 
 **Composição**: A composição já caracteriza uma dependência existencial, entre a classe principal e a classe associada. Imaginamos que uma admissão só poderá existir, contendo suas informações básicas e a composição do candidato selecionado.
 
-![imagem](../assets/uml5.png)
+![imagem](../../assets/uml5.png)
 Admissão é a classe principal e Candidato compõe a Admissão, logo este SURGIRA uma composição entre Admissão e Colaborador - ver DDD
 
 ### Multiplicidade
@@ -75,12 +75,12 @@ Os atributos e métodos de uma classe, podem receber níveis de visibilidade, e 
 
 ## Representação
 
-![imagem](../assets/uml6.png)
+![imagem](../../assets/uml6.png)
 Ilustração utilizando a ferramenta Astah Community.
 
 **Que tal praticar ?**
 
-![imagem](../assets/uml7.png)
+![imagem](../../assets/uml7.png)
 
 No momento da admissão, este Candidato deverá se tornar um Colaborador - ver DDD
 
@@ -88,7 +88,7 @@ No momento da admissão, este Candidato deverá se tornar um Colaborador - ver D
 
 Existem inúmeras ferramentas de diagramação, tanto online, como pagas e gratuitas.
 
-![imagem](../assets/uml8.png)
+![imagem](../../assets/uml8.png)
 
 <div>
 StarUML Alternatives in 2021 - community voted on SaaSHub
