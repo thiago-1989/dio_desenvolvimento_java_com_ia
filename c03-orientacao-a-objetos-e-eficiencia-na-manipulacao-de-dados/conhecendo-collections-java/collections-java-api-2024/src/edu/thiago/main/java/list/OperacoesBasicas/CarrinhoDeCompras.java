@@ -35,9 +35,14 @@ public class CarrinhoDeCompras {
   }
 
   public void exibirItens() {
-    for (Item item : carrinho) {
-      System.out.println(item.getNome());
+    if (!carrinho.isEmpty()) {
+      for (Item item : carrinho) {
+        System.out.println(item);
+      }
+    }else {
+      System.out.println("Carrinho vazio");
     }
+
   }
 
   public static void main(String[] args) {
@@ -52,6 +57,10 @@ public class CarrinhoDeCompras {
 
     // Exibindo os itens no carrinho
     carrinhoDeCompras.exibirItens();
+    // Calculando e exibindo o valor total da compra
+    System.out.println("O valor total da compra é = " + carrinhoDeCompras.calcularValorTotal());
+
+    System.out.println();
 
     // Removendo um item do carrinho
     carrinhoDeCompras.removerItem("Lápis");
