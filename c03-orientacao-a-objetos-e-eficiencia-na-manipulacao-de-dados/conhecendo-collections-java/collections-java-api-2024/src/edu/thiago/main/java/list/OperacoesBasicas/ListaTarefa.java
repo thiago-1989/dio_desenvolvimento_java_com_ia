@@ -42,7 +42,7 @@ public class ListaTarefa {
 
         System.out.println("Número de tarefas na lista: " + listaTarefa.obterNumeroTotalTarefas());
 
-         listaTarefa.adicionarTarefa("Tarefa 1");
+        listaTarefa.adicionarTarefa("Tarefa 1");
 
         listaTarefa.adicionarTarefa("Tarefa 1");
 
