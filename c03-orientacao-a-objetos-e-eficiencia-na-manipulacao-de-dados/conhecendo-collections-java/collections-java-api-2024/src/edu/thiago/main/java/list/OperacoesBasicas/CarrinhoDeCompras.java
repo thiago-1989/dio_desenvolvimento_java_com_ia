@@ -5,7 +5,7 @@ import java.util.List;
 
 public class CarrinhoDeCompras {
     //Atributos
-    List<Item> carrinho = new ArrayList<>();
+    private List<Item> carrinho;
 
     public CarrinhoDeCompras() {
         this.carrinho = new ArrayList<>();
