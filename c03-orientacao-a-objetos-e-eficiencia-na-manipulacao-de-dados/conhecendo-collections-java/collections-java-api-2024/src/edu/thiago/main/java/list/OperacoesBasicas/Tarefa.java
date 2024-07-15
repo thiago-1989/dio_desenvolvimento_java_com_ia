@@ -1,12 +1,10 @@
 package edu.thiago.main.java.list.OperacoesBasicas;
 
-import edu.thiago.main.java.set.Pesquisa.Tarefa;
-
-public class Tarefas {
+public class Tarefa {
     //atributo
     private String descricao;
 
-    public Tarefas(String descricao) {
+    public Tarefa(String descricao) {
         this.descricao = descricao;
     }
 

@@ -1,7 +1,5 @@
 package edu.thiago.main.java.list.OperacoesBasicas;
 
-import edu.thiago.main.java.set.Pesquisa.Tarefa;
-
 import java.util.ArrayList;
 import java.util.List;
 
