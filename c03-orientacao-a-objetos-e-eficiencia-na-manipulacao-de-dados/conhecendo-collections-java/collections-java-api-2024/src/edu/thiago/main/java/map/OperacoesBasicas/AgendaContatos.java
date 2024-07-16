@@ -56,13 +56,38 @@ public class AgendaContatos {
     }
 
     public static void main(String[] args) {
-        AgendaContatos agenda = new AgendaContatos();
-        agenda.adicionarContato("Thiago", 999888777);
-        System.out.println(agenda.agendaMap);
+
+        AgendaContatos agendaContatos = new AgendaContatos();
+
+        agendaContatos.adicionarContato("Thiago", 999888777);
+        System.out.println(agendaContatos.agendaMap);
         //agenda.removerContato("Thiago");
-        agenda.exibirContatos();
-        agenda.pesquisarPorNome("Thiago");
-        System.out.println(agenda.numeroPorNome("Thiago"));
+        agendaContatos.exibirContatos();
+        agendaContatos.pesquisarPorNome("Thiago");
+        System.out.println(agendaContatos.numeroPorNome("Thiago"));
+
+        // Adicionar contatos
+        agendaContatos.adicionarContato("Camila", 123456);
+        agendaContatos.adicionarContato("João", 5665);
+        agendaContatos.adicionarContato("Carlos", 1111111);
+        agendaContatos.adicionarContato("Ana", 654987);
+        agendaContatos.adicionarContato("Maria", 1111111);
+        agendaContatos.adicionarContato("Camila", 44444);
+
+        agendaContatos.exibirContatos();
+
+        // Remover um contato
+        agendaContatos.removerContato("Maria");
+        agendaContatos.exibirContatos();
+
+        // Pesquisar número por nome
+        String nomePesquisa = "João";
+        Integer numeroPesquisa = agendaContatos.numeroPorNome("João");
+        System.out.println("Número de telefone de " + nomePesquisa + ": " + numeroPesquisa);
+
+        String nomePesquisaNaoExistente = "Paula";
+        Integer numeroPesquisaNaoExistente = agendaContatos.numeroPorNome(nomePesquisaNaoExistente);
+        System.out.println("Número de telefone de " + nomePesquisaNaoExistente + ": " + numeroPesquisaNaoExistente);
     }
 
 }
