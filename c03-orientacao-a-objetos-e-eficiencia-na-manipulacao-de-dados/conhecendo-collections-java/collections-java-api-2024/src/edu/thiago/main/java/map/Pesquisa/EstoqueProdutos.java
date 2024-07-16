@@ -17,7 +17,7 @@ public class EstoqueProdutos {
 
     public void exibirProdutos() {
         if (!estoqueProdutos.isEmpty()) {
-            System.out.println(estoqueProdutos.toString());
+            System.out.println(estoqueProdutos);
         } else {
             System.out.println("Estoque vazio");
         }
@@ -38,7 +38,7 @@ public class EstoqueProdutos {
     public Produto obterProdutoMaisCaro() {
         if (!estoqueProdutos.isEmpty()) {
             Produto produtoMaisCaro = null;
-            Double maiorPreco = Double.MIN_VALUE;
+            double maiorPreco = Double.MIN_VALUE;
             for (Produto produto : estoqueProdutos.values()) {
                 if (produto.getPreco() > maiorPreco) {
                     produtoMaisCaro = produto;
@@ -53,7 +53,7 @@ public class EstoqueProdutos {
     public Produto obterProdutoMaisBarato() {
         if (!estoqueProdutos.isEmpty()) {
             Produto produtoMaisBarato = obterProdutoMaisCaro();
-            Double menorPreco = produtoMaisBarato.getPreco();
+            double menorPreco = produtoMaisBarato.getPreco();
             for (Produto produto : estoqueProdutos.values()) {
                 if (produto.getPreco() < menorPreco) {
                     produtoMaisBarato = produto;
@@ -65,10 +65,11 @@ public class EstoqueProdutos {
             throw new RuntimeException("Estoque vazio");        }
     }
 
-    public void obterProdutoMaiorQuantidadeValorTotalNoEstoque() {
+    public Produto obterProdutoMaiorQuantidadeValorTotalNoEstoque() {
+
         if (!estoqueProdutos.isEmpty()) {
             Produto maisCaro = null;
-            Double maiorValor = estoqueProdutos.values().iterator().next().getPreco();
+            double maiorValor = estoqueProdutos.values().iterator().next().getPreco();
             for (Produto produto : estoqueProdutos.values()) {
                 double estoqueProduto = produto.getPreco() * produto.getQuantidade();
                 if (estoqueProduto > maiorValor) {
@@ -77,12 +78,11 @@ public class EstoqueProdutos {
                 }
 
             }
-            System.out.println("Produto com maior valor em estoque: " + maisCaro.getNome() + " com R$" + maiorValor + " no total");
+            return maisCaro;
         } else {
             throw new RuntimeException("Estoque vazio");
         }
     }
-
 
     public static void main(String[] args) {
         EstoqueProdutos estoqueProdutos = new EstoqueProdutos();
@@ -95,5 +95,35 @@ public class EstoqueProdutos {
         System.out.println(estoqueProdutos.obterProdutoMaisCaro());
         System.out.println(estoqueProdutos.obterProdutoMaisBarato());
         estoqueProdutos.obterProdutoMaiorQuantidadeValorTotalNoEstoque();
+
+        EstoqueProdutos estoque = new EstoqueProdutos();
+
+        // Exibe o estoque vazio
+        estoque.exibirProdutos();
+
+        // Adiciona produtos ao estoque
+        estoque.adicionarProduto(1L, "Notebook", 1, 1500.0);
+        estoque.adicionarProduto(2L, "Mouse", 5, 25.0);
+        estoque.adicionarProduto(3L, "Monitor", 10, 400.0);
+        estoque.adicionarProduto(4L, "Teclado", 2, 40.0);
+
+        // Exibe os produtos no estoque
+        estoque.exibirProdutos();
+
+        // Calcula e exibe o valor total do estoque
+        System.out.println("Valor total do estoque: R$" + estoque.calcularValorTotalEstoque());
+
+        // Obtém e exibe o produto mais caro
+        Produto produtoMaisCaro = estoque.obterProdutoMaisCaro();
+        System.out.println("Produto mais caro: " + produtoMaisCaro);
+
+        // Obtém e exibe o produto mais barato
+        Produto produtoMaisBarato = estoque.obterProdutoMaisBarato();
+        System.out.println("Produto mais barato: " + produtoMaisBarato);
+
+        // Obtém e exibe o produto com a maior quantidade em valor no estoque
+        Produto produtoMaiorQuantidadeValorTotal = estoque.obterProdutoMaiorQuantidadeValorTotalNoEstoque();
+        System.out.println("Produto com maior quantidade em valor no estoque: " + produtoMaiorQuantidadeValorTotal);
+
     }
 }
