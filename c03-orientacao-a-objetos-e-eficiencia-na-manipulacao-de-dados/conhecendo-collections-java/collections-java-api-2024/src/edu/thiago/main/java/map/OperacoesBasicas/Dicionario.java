@@ -58,7 +58,7 @@ public static void main(String[] args) {
     dicionario.adicionarPalavra("kotlin", "Linguagem moderna de programação para a JVM.");
 
     // Exibir todas as palavras
-    dicionario.exibirPalavras();
+    dicionario.exibirPalavra();
 
     // Pesquisar palavras
     String definicaoJava = dicionario.pesquisarPorPalavra("java");
@@ -69,6 +69,6 @@ public static void main(String[] args) {
 
     // Remover uma palavra
     dicionario.removerPalavra("typescript");
-    dicionario.exibirPalavras();
+    dicionario.exibirPalavra();
 }
 }
