@@ -16,6 +16,6 @@ public class SegundoMaiorDaLista {
                 .skip(1) // Pula o maior número
                 .findFirst(); // Pega o próximo número (segundo maior)
 
-        System.out.println(segundoMaior);
+        System.out.printf("O segundo maior número na lista é %d", segundoMaior.get());
     }
 }
