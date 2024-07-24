@@ -41,27 +41,27 @@ X- Desafio 8 - Somar os dígitos de todos os números da lista:
 
 Utilizando a Stream API, realize a soma dos dígitos de todos os números da lista e exiba o resultado no console.
 
-- Desafio 9 - Verificar se todos os números da lista são distintos (não se repetem):
+X- Desafio 9 - Verificar se todos os números da lista são distintos (não se repetem):
 
 Com a Stream API, verifique se todos os números da lista são distintos (não se repetem) e exiba o resultado no console.
 
-- Desafio 10 - Agrupe os valores ímpares múltiplos de 3 ou de 5:
+X- Desafio 10 - Agrupe os valores ímpares múltiplos de 3 ou de 5:
 
 Utilize a Stream API para agrupar os valores ímpares múltiplos de 3 ou de 5 e exiba o resultado no console.
 
-- Desafio 11 - Encontre a soma dos quadrados de todos os números da lista:
+X- Desafio 11 - Encontre a soma dos quadrados de todos os números da lista:
 
 Utilizando a Stream API, encontre a soma dos quadrados de todos os números da lista e exiba o resultado no console.
 
-- Desafio 12 - Encontre o produto de todos os números da lista:
+X- Desafio 12 - Encontre o produto de todos os números da lista:
 
 Com a ajuda da Stream API, encontre o produto de todos os números da lista e exiba o resultado no console.
 
-- Desafio 13 - Filtrar os números que estão dentro de um intervalo:
+X- Desafio 13 - Filtrar os números que estão dentro de um intervalo:
 
 Utilize a Stream API para filtrar os números que estão dentro de um intervalo específico (por exemplo, entre 5 e 10) e exiba o resultado no console.
 
-- Desafio 14 - Encontre o maior número primo da lista:
+X- Desafio 14 - Encontre o maior número primo da lista:
 
 Com a Stream API, encontre o maior número primo da lista e exiba o resultado no console.
 
