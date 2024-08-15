@@ -24,7 +24,7 @@ public class UsuarioController {
     public List<Usuario> getAll(){
         return repository.listAll();
     }
-    @GetMapping("/usuario/{id}")
+    @GetMapping("/usuarios/{id}")
     public Usuario getOne(@PathVariable("id") Integer id){
         return repository.finById(id);
     }
