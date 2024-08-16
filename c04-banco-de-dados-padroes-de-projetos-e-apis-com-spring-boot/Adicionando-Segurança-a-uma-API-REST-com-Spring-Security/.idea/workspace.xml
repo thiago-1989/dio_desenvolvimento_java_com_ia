@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="80e0a516-71df-493f-9ef6-77c2708ab5bc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../dio-springboot/dio-spring-security-jwt/src/main/java/dio/dio/spring/security/jwt/DioSpringSecurityJwtApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dio-springboot/dio-spring-security-jwt/src/main/java/dio/spring/security/jwt/DioSpringSecurityJwtApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dio-springboot/dio-spring-security-jwt/src/main/java/dio/dio/spring/security/jwt/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dio-springboot/dio-spring-security-jwt/src/main/java/dio/spring/security/jwt/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dio-springboot/dio-spring-security-jwt/src/main/java/dio/dio/spring/security/jwt/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dio-springboot/dio-spring-security-jwt/src/main/java/dio/spring/security/jwt/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dio-springboot/dio-spring-security-jwt/src/main/java/dio/dio/spring/security/jwt/controller/WelcomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dio-springboot/dio-spring-security-jwt/src/main/java/dio/spring/security/jwt/controller/WelcomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dio-springboot/dio-spring-security-jwt/src/main/java/dio/dio/spring/security/jwt/dtos/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dio-springboot/dio-spring-security-jwt/src/main/java/dio/spring/security/jwt/dtos/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dio-springboot/dio-spring-security-jwt/src/main/java/dio/dio/spring/security/jwt/dtos/Sessao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dio-springboot/dio-spring-security-jwt/src/main/java/dio/spring/security/jwt/dtos/Sessao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dio-springboot/dio-spring-security-jwt/src/main/java/dio/dio/spring/security/jwt/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dio-springboot/dio-spring-security-jwt/src/main/java/dio/spring/security/jwt/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dio-springboot/dio-spring-security-jwt/src/main/java/dio/dio/spring/security/jwt/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dio-springboot/dio-spring-security-jwt/src/main/java/dio/spring/security/jwt/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dio-springboot/dio-spring-security-jwt/src/main/java/dio/dio/spring/security/jwt/security/JWTCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dio-springboot/dio-spring-security-jwt/src/main/java/dio/spring/security/jwt/security/JWTCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dio-springboot/dio-spring-security-jwt/src/main/java/dio/dio/spring/security/jwt/security/JWTFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dio-springboot/dio-spring-security-jwt/src/main/java/dio/spring/security/jwt/security/JWTFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dio-springboot/dio-spring-security-jwt/src/main/java/dio/dio/spring/security/jwt/security/JWTObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dio-springboot/dio-spring-security-jwt/src/main/java/dio/spring/security/jwt/security/JWTObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dio-springboot/dio-spring-security-jwt/src/main/java/dio/dio/spring/security/jwt/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dio-springboot/dio-spring-security-jwt/src/main/java/dio/spring/security/jwt/security/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dio-springboot/dio-spring-security-jwt/src/main/java/dio/dio/spring/security/jwt/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dio-springboot/dio-spring-security-jwt/src/main/java/dio/spring/security/jwt/security/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dio-springboot/dio-spring-security-jwt/src/main/java/dio/dio/spring/security/jwt/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dio-springboot/dio-spring-security-jwt/src/main/java/dio/spring/security/jwt/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dio-springboot/dio-spring-security-jwt/src/test/java/dio/dio/spring/security/jwt/DioSpringSecurityJwtApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dio-springboot/dio-spring-security-jwt/src/test/java/dio/spring/security/jwt/DioSpringSecurityJwtApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dio-springboot/dio-spring-security/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dio-springboot/dio-spring-security/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2kixhVMZZeXvp2fqDW62yI8esuE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "feat/thiago-1989",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/thiago/Documentos/Dio/dio_desenvolvimento_java_com_ia/c04-banco-de-dados-padroes-de-projetos-e-apis-com-spring-boot/Adicionando-Segurança-a-uma-API-REST-com-Spring-Security/dio-spring-security-jwt",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.300" />
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.300" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="80e0a516-71df-493f-9ef6-77c2708ab5bc" name="Changes" comment="" />
+      <created>1723780317860</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1723780317860</updated>
+      <workItem from="1723780318876" duration="19000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
