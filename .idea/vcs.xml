@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/c04-banco-de-dados-padroes-de-projetos-e-apis-com-spring-boot/5-Design Patterns com Java/desafio-padroes-projeto" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/c04-banco-de-dados-padroes-de-projetos-e-apis-com-spring-boot/6-Publicando Sua API REST na Nuvem Usando Spring Boot 3, Java 17 e Railway/desafio-santander-dev-week" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/c04-banco-de-dados-padroes-de-projetos-e-apis-com-spring-boot/6-Publicando Sua API REST na Nuvem Usando Spring Boot 3, Java 17 e Railway/santander-dev-week-2023" vcs="Git" />
+  </component>
+</project>

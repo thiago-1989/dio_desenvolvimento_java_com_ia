@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/pilares-da-poo/abstracao/abstracao.iml" filepath="$PROJECT_DIR$/pilares-da-poo/abstracao/abstracao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/c03-orientacao-a-objetos-e-eficiencia-na-manipulacao-de-dados.iml" filepath="$PROJECT_DIR$/.idea/c03-orientacao-a-objetos-e-eficiencia-na-manipulacao-de-dados.iml" />
+      <module fileurl="file://$PROJECT_DIR$/conhecendo-collections-java/conhecendo-collections-java.iml" filepath="$PROJECT_DIR$/conhecendo-collections-java/conhecendo-collections-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fundamentos-da-poo/construtores/construtores.iml" filepath="$PROJECT_DIR$/fundamentos-da-poo/construtores/construtores.iml" />
+      <module fileurl="file://$PROJECT_DIR$/criando-um-banco-digital-com-java-poo/criando-um-banco-digital-com-java-poo.iml" filepath="$PROJECT_DIR$/criando-um-banco-digital-com-java-poo/criando-um-banco-digital-com-java-poo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/desafios-de-codigo/desafios-de-codigo.iml" filepath="$PROJECT_DIR$/desafios-de-codigo/desafios-de-codigo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dio-desafio-poo/dio-desafio-poo.iml" filepath="$PROJECT_DIR$/dio-desafio-poo/dio-desafio-poo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pilares-da-poo/encapsulamento/encapsulamento.iml" filepath="$PROJECT_DIR$/pilares-da-poo/encapsulamento/encapsulamento.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fundamentos-da-poo/enum/enum.iml" filepath="$PROJECT_DIR$/fundamentos-da-poo/enum/enum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ganhando_produtividade_com_Stream_API/ganhando_produtividade_com_Stream_API.iml" filepath="$PROJECT_DIR$/ganhando_produtividade_com_Stream_API/ganhando_produtividade_com_Stream_API.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fundamentos-da-poo/getter-e-setter/getter-e-setter.iml" filepath="$PROJECT_DIR$/fundamentos-da-poo/getter-e-setter/getter-e-setter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pilares-da-poo/heranca/heranca.iml" filepath="$PROJECT_DIR$/pilares-da-poo/heranca/heranca.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pilares-da-poo/interface/interface.iml" filepath="$PROJECT_DIR$/pilares-da-poo/interface/interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pilares-da-poo/pilares-da-poo/pilares-da-poo.iml" filepath="$PROJECT_DIR$/pilares-da-poo/pilares-da-poo/pilares-da-poo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pilares-da-poo/polimorfismo/polimorfismo.iml" filepath="$PROJECT_DIR$/pilares-da-poo/polimorfismo/polimorfismo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fundamentos-da-poo/uml/uml.iml" filepath="$PROJECT_DIR$/fundamentos-da-poo/uml/uml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fundamentos-da-poo/visibiliddade-dos-recursos/visibiliddade-dos-recursos.iml" filepath="$PROJECT_DIR$/fundamentos-da-poo/visibiliddade-dos-recursos/visibiliddade-dos-recursos.iml" />
+    </modules>
+  </component>
+</project>
